@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "serverblocktypebreakrestriction",
+  "version": "${version}",
+  "name": "Server Block Type Break Restriction",
+  "description": "Enforces blockTypeBreakRestriction on the server",
+  "authors": [
+    "Earthcomputer"
+  ],
+  "contact": {
+    "issues": "https://github.com/Earthcomputer/ServerBlockTypeBreakRestriction/issues",
+    "sources": "https://github.com/Earthcomputer/ServerBlockTypeBreakRestriction"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "serverblocktypebreakrestriction.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.18.x"
+  }
+}

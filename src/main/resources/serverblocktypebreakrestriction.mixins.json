@@ -4,8 +4,7 @@
   "package": "net.earthcomputer.serverblocktypebreakrestriction.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "PlayerMixin",
-    "ServerPlayerGameModeMixin"
+    "PlayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
